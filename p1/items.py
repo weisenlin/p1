@@ -40,3 +40,10 @@ class DoubanMovieCommentItem(scrapy.Item):
     comment = scrapy.Field()  # 评论
     title = scrapy.Field()  # 标题
     comment_page_url = scrapy.Field()  # 当前页
+
+
+class DmozItem2(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()
+    desc = scrapy.Field()
+
