@@ -78,7 +78,7 @@ DEFAULT_REQUEST_HEADERS = {
 ITEM_PIPELINES = {
   #'douban.pipelines.DoubanBookPipeline': 300,
   #'douban.pipelines.DoubanMailPipeline': 600,
-  'p1.pipelines.DoubanMovieCommentPipeline': 900,
+  'p1.pipelines.TestPipeline': 900,
 }
 #ITEM_PIPELINES = {
 #    'p1.pipelines.P1Pipeline': 300,

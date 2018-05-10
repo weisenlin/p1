@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 '''by sudo rm -rf http://imchenkun.com'''
+import json
+
 import scrapy
 from p1.items import DoubanBookItem
 
