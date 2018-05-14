@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 
 from scrapy import cmdline
-cmdline.execute("scrapy crawl domz".split())
+cmdline.execute("scrapy crawl douban-book -o douban-book.json".split())
