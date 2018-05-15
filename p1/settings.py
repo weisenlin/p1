@@ -77,7 +77,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-  'p1.pipelines.DoubanBookPipeline': 300,
+  #'p1.pipelines.DoubanBookPipeline': 300,
   #'douban.pipelines.DoubanMailPipeline': 600,
   # 'p1.pipelines.TestPipeline': 900,
 }
